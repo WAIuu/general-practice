@@ -7,7 +7,7 @@ import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
 
 @Data
-public class ValidQuery {
+public class UserQuery {
     @NotBlank(message = "用户名不能为空")
     private String username;
 
